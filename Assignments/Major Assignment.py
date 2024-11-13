@@ -43,6 +43,7 @@ def employee_report():
         hourly_rate = float(input(f"Enter hourly rate for {name}: "))
         hours_worked = int(input(f"Enter hours worked per week for {name}: "))
         employees.append([name, hourly_rate, hours_worked])
+        print()
 
     for emp in employees:
         basic = basic_salary(emp[1], emp[2])

@@ -1,0 +1,8 @@
+OOPS in Python :-
+
+Class
+Object
+Inheritance
+Encapsulation
+Polymorphism
+Abstraction
